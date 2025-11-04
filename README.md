@@ -1,1 +1,8 @@
-# UKL
+Fungsi Program
+Program ini berfungsi untuk menghitung biaya total pengiriman paket pada sebuah perusahaan ekspedisi berdasarkan berat paket, jarak tempuh pengiriman, serta volume barang. Dengan adanya program ini, proses perhitungan biaya pengiriman dapat dilakukan secara otomatis, cepat, dan akurat tanpa harus menghitung secara manual. Hal ini membantu menghindari kesalahan perhitungan dan memudahkan petugas ekspedisi ataupun pelanggan dalam mengetahui biaya pengiriman secara konsisten sesuai aturan yang berlaku. Program ini juga mencerminkan penerapan logika perhitungan dalam situasi nyata pada bidang logistik.
+
+ Cara Kerja Program
+Cara kerja program dimulai dengan meminta pengguna memasukkan berat paket, jarak pengiriman, serta panjang, lebar, dan tinggi paket. Dari data tersebut, program akan menghitung volume paket dengan mengalikan panjang, lebar, dan tinggi. Selanjutnya, program menentukan tarif pengiriman per kilogram berdasarkan jarak—apabila jarak pengiriman kurang dari atau sama dengan 10 km maka tarif yang digunakan adalah Rp 4.250 per kilogram, sedangkan jika lebih dari 10 km tarifnya Rp 6.000 per kilogram. Setelah itu, program menghitung biaya pengiriman berdasarkan berat paket. Jika volume paket melebihi 100 cm³, program menambahkan biaya tambahan sebesar Rp 50.000. Terakhir, program menjumlahkan biaya berdasarkan berat dan biaya tambahan volume, lalu menampilkan total biaya pengiriman kepada pengguna.
+
+Hasil Outputnya
+<img width="971" height="625" alt="Screenshot_2025-11-04_14-25-04" src="https://github.com/user-attachments/assets/f9c2c26b-a31c-494a-8481-76d7659f2997" />
